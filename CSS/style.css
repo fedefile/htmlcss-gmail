@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+     background-image: url(https://pixnio.com/free-images/2017/11/01/2017-11-01-17-03-28-1200x798.jpg);
+     background-size: cover;
+}
+h3 {
+    color: red
+}
+h3 {
+    margin-left: 100px
+}
+h3 {
+    margin-top: -30px
+}
+hr {
+    color: gray
+}
+header {
+    margin-left: 70px
+}
+main {
+    margin-left: 70px
+}
+main {
+    color: white
+}
+div {
+    color: black
+}
+div {
+    background-color: rgba(127,127,127,0.65)
+}
+footer {
+    text-align: center;
+}
