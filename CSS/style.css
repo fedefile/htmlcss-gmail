@@ -1,39 +1,75 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body {
-     background-image: url(https://pixnio.com/free-images/2017/11/01/2017-11-01-17-03-28-1200x798.jpg);
-     background-size: cover;
+  width: 50%;
+  margin: 0 auto;
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
 }
-h3 {
-    color: red
+
+#logo {
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
 }
-h3 {
-    margin-left: 100px
+#logo-text {
+  color: white;
+  font-size: 25px;
 }
-h3 {
-    margin-top: -30px
+
+#top-rule {
+  margin-top: 0;
 }
-hr {
-    color: gray
+
+.no-margin {
+  margin: 0;
 }
-header {
-    margin-left: 70px
+
+.email-row {
+  padding: 2px;
+  border: 1px solid black;
 }
-main {
-    margin-left: 70px
+.email-row.read {
+  background-color: lightgrey;
 }
-main {
-    color: white
+.email-row.unread {
+  background-color: white;
 }
-div {
-    color: black
+.email-text {
+  color: grey;
 }
-div {
-    background-color: rgba(127,127,127,0.65)
+.email-text:before {
+  content: " - ";
 }
+.email-text:after {
+  content: "...";
+}
+.star:after {
+  content: "\02605";
+}
+
 footer {
-    text-align: center;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+footer span {
+  font-style: italic;
+  font-size: 15px;
+}
+
+#count {
+  margin-top: 5px;
+  color: white;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+#unread-count {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: orange;
+  text-align: center;
+  vertical-align: middle;
 }
